@@ -1,0 +1,73 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-family: $Helvetica;
+}
+body {
+  margin: 0;
+  font-family: $Helvetica;
+  background-color: $background;
+}
+.btn {
+  background: $brandColor1;
+  border-radius: 4px;
+  color: white;
+  &.disabled {
+    background: #cccccc;
+  }
+}
+.content {
+  width: 1440px;
+  margin: auto;
+  color: #8c8c8c;
+}
+.min-content {
+  width: 1095px;
+  margin: auto;
+}
+input {
+  background: #f9fafb;
+}
+p.error {
+  color: red;
+}
+//1136
+
+@media (max-width: 1550px) {
+  .content {
+    width: 1095px;
+    margin: auto;
+    color: #8c8c8c;
+  }
+  .min-content {
+    width: 695px;
+    margin: auto;
+  }
+}
+@media (max-width: 1195px) {
+  .content {
+    width: 695px;
+    margin: auto;
+    color: #8c8c8c;
+  }
+  .min-content {
+    width: 600px;
+    margin: auto;
+  }
+}
+@media (max-width: 745px) {
+  .content {
+    width: 300px;
+    margin: auto;
+    color: #8c8c8c;
+  }
+  .min-content {
+    width: 300px;
+    margin: auto;
+  }
+}
